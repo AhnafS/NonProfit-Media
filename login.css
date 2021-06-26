@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(71, 177, 204);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer {
+    border: 1px solid black;
+    width: 30%;
+    height: 40%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#mainContainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
